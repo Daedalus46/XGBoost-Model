@@ -64,7 +64,7 @@ label {
 st.markdown(cyberpunk_css, unsafe_allow_html=True)
 
 # --- TITLE ---
-st.markdown("<h1>⚡ CYBER EV RANGE PREDICTOR ⚡</h1>", unsafe_allow_html=True)
+st.markdown("<h1>⚡ EV RANGE PREDICTOR ⚡</h1>", unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
 
 # --- SIDEBAR INPUT FORM ---
