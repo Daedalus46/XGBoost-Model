@@ -1,4 +1,4 @@
-# XGBoost-Model
+# EV RANGE PREDICTOR-Model
 
 A simple end-to-end machine-learning project demonstrating data preprocessing, training an XGBoost model, model evaluation, and deployment using Streamlit Cloud.
 
@@ -23,14 +23,14 @@ This deployment was achieved by creating a new Streamlit Cloud app and providing
 
 ## 📁 Project Structure
 
-    XGBoost-Model/
+     EV RANGE PREDICTOR-Model/
     │
-    ├── app.py                Main Streamlit application
-    ├── model.pkl             Saved XGBoost model
-    ├── requirements.txt      Required Python packages
-    ├── data/                 Dataset used for training
-    ├── notebooks/            Jupyter notebooks (EDA, model training)
-    └── README.md             Documentation
+    ├── app.py                   Streamlit web application
+    ├── model_train.py           Script for training the XGBoost model
+    ├── electric_range_model.pkl Trained XGBoost model (pickle format)
+    ├── cleaned_data.csv         Cleaned dataset used for training
+    ├── requirements.txt         Python dependencies
+    └── README.md                Documentation
 
 ---
 
