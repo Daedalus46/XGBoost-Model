@@ -15,7 +15,7 @@ model = joblib.load("electric_range_model.pkl")
 df = pd.read_csv("cleaned_data.csv")
 
 # Page Config
-st.set_page_config(page_title="CyberEV Range Predictor", layout="wide")
+st.set_page_config(page_title="EV Range Predictor", layout="wide")
 
 # --- CUSTOM CYBERPUNK CSS ---
 cyberpunk_css = """
